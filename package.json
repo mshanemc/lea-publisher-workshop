@@ -1,0 +1,35 @@
+{
+  "name": "lea-publisher-workshop",
+  "private": true,
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "lint": "npm run lint:lwc",
+    "lint:lwc": "eslint force-app/main/default/lwc",
+    "test": "npm run test:unit",
+    "test:unit": "sfdx-lwc-jest",
+    "test:unit:watch": "sfdx-lwc-jest --watch",
+    "test:unit:debug": "sfdx-lwc-jest --debug",
+    "test:unit:coverage": "sfdx-lwc-jest --coverage",
+    "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
+    "prettier:verify": "prettier --list-different \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
+    "build": "sfdx shane:org:delete; ./orgInit.sh",
+    "publish": "sfdx shane:package2:version:bump -m -r; git add sfdx-project.json; git commit -m 'package version bump'; git push origin master"
+  },
+  "devDependencies": {
+    "@prettier/plugin-xml": "^0.7.2",
+    "@salesforce/eslint-config-lwc": "^0.5.0",
+    "@salesforce/sfdx-lwc-jest": "^0.7.1",
+    "eslint": "^6.8.0",
+    "prettier": "^2.0.5",
+    "prettier-plugin-apex": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mshanemc/lea-publisher-workshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mshanemc/lea-publisher-workshop/issues"
+  },
+  "homepage": "https://github.com/mshanemc/lea-publisher-workshop"
+}
