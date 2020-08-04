@@ -2,9 +2,13 @@
   "orgName": "lea-publisher-workshop",
   "adminEmail": "sfdx@mailinator.com",
   "edition": "Developer",
+  "features": ["Communities"],
   "settings": {
     "communitiesSettings": {
-      "enableNetworksEnabled": false
+      "enableNetworksEnabled": true
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
     },
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
