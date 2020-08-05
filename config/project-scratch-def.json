@@ -1,6 +1,7 @@
 {
   "orgName": "lea-publisher-workshop",
   "adminEmail": "sfdx@mailinator.com",
+  "hasSampleData": true,
   "edition": "Developer",
   "features": ["Communities"],
   "settings": {
