@@ -1,10 +1,7 @@
 {
   "packageDirectories": [
     {
-      "path": "force-app"
-    },
-    {
-      "path": "community-create",
+      "path": "force-app",
       "default": true
     }
   ],
