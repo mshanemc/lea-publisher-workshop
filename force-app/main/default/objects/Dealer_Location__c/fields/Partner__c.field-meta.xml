@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>Partner</label>
+    <type>MasterDetail</type>
+    <fullName>Partner__c</fullName>
+    <referenceTo>Account</referenceTo>
+    <relationshipName>Locations</relationshipName>
+    <relationshipLabel>Locations</relationshipLabel>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    <relationshipOrder>0</relationshipOrder>
+</CustomField>

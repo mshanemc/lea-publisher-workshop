@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <label>Dealer Location</label>
+    <pluralLabel>Dealer Locations</pluralLabel>
+    <description>added from sfdx plugin</description>
+    <nameField>
+        <type>Text</type>
+        <label>Name</label>
+    </nameField>
+    <sharingModel>ControlledByParent</sharingModel>
+    <enableSharing>true</enableSharing>
+    <enableBulkApi>true</enableBulkApi>
+    <enableStreamingApi>true</enableStreamingApi>
+    <enableReports>true</enableReports>
+    <enableHistory>true</enableHistory>
+    <enableFeeds>true</enableFeeds>
+    <enableSearch>true</enableSearch>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+</CustomObject>
