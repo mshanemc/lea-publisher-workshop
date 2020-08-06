@@ -5,6 +5,7 @@
 package.xml
 
 Admin.profile
+*.profile
 
 # LWC configuration files
 **/jsconfig.json
