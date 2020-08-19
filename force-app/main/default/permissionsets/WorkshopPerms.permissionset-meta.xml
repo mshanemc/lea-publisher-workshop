@@ -93,4 +93,8 @@
         <tab>public_rebates__x</tab>
         <visibility>Visible</visibility>
     </tabSettings>
+    <tabSettings>
+        <tab>Dealer_Location__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>
