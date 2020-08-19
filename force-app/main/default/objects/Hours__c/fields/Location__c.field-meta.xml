@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>Location</label>
+    <type>MasterDetail</type>
+    <fullName>Location__c</fullName>
+    <referenceTo>Dealer_Location__c</referenceTo>
+    <relationshipName>Hours</relationshipName>
+    <relationshipLabel>Hours</relationshipLabel>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    <relationshipOrder>0</relationshipOrder>
+</CustomField>

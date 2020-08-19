@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>Close</label>
+    <type>Time</type>
+    <fullName>Close__c</fullName>
+</CustomField>
