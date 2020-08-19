@@ -6,4 +6,5 @@ sfdx shane:github:package:install -g mshanemc -r community-boilerplate
 
 sfdx force:source:push
 sfdx force:user:permset:assign -n WorkshopPerms
+sfdx force:data:record:create --sobjecttype Account --values "Name='Default Partner'"
 sfdx force:org:open
