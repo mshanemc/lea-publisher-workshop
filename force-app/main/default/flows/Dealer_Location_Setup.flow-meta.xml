@@ -358,6 +358,25 @@
         <showHeader>false</showHeader>
     </screens>
     <screens>
+        <name>Intro_Screen</name>
+        <label>Intro Screen</label>
+        <locationX>248</locationX>
+        <locationY>197</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>MakeDays</targetReference>
+        </connector>
+        <fields>
+            <name>setupInstructions</name>
+            <fieldText>&lt;p&gt;Click Next to set up a new location&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
         <name>Select_Days</name>
         <label>Select Days</label>
         <locationX>610</locationX>
@@ -423,7 +442,7 @@
         <locationX>295</locationX>
         <locationY>50</locationY>
         <connector>
-            <targetReference>MakeDays</targetReference>
+            <targetReference>Intro_Screen</targetReference>
         </connector>
     </start>
     <status>Active</status>
