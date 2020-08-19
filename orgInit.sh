@@ -5,5 +5,5 @@ sfdx force:package:install --package 04t1I000003RkFaQAK --publishwait 60 --wait 
 sfdx shane:github:package:install -g mshanemc -r community-boilerplate
 
 sfdx force:source:push
-
+sfdx force:user:permset:assign -n WorkshopPerms
 sfdx force:org:open
