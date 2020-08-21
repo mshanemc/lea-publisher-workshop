@@ -8,6 +8,6 @@
     <columns>Postal_Code__c</columns>
     <columns>Coordinates__Latitude__s</columns>
     <columns>Coordinates__Longitude__s</columns>
-    <filterScope>Mine</filterScope>
+    <filterScope>Everything</filterScope>
     <label>My Locations</label>
 </ListView>
